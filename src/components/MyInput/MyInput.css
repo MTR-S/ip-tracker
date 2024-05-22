@@ -1,0 +1,43 @@
+.Input-Component {
+    display: flex;
+    min-height: 7vh;
+    width: 40vw;
+}
+
+.Input-Component .Input-Text {
+    width: 100%;
+    padding: 0.4em;
+    font-size: 100% ;
+    border: none;
+    border-radius: 16px 0px 0px 16px;
+
+}
+
+.Input-Component .Input-Text:focus {
+    outline: none;
+  }
+
+.Input-Component .Input-Button {
+    width: 20%;
+    min-height: 100%;
+    background-color: #262525;
+    border: none;
+    border-radius: 0px 16px 16px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Input-Button:hover {
+    background-color: #181717;
+    scale: 1.05;
+}
+
+@media (max-width: 1020px) {
+    .Input-Component {
+        width: 70vw;
+    }
+
+    .Input-Component .Input-Button {
+        width: 15%;
+    }
+}
