@@ -14,6 +14,7 @@ import "./UpperContainer.css"
 interface UpperContainerProps {
     ipInfos: LocationInformationProps,
     setIpInfos: Dispatch<SetStateAction<LocationInformationProps>>,
+    myInitialIp: string,
 }
 
 const UpperContainer = ( props: UpperContainerProps ) => {
@@ -21,7 +22,7 @@ const UpperContainer = ( props: UpperContainerProps ) => {
         <div className="UpperContainer">
             <h1 className="Title">IP Address Tracker</h1>
 
-            <MyInput setIpInfos={ props.setIpInfos }/>
+            <MyInput setIpInfos={ props.setIpInfos } myInitialIp={props.myInitialIp}/>
 
             <LocationInformation 
                 ipAddress={ props.ipInfos.ipAddress }

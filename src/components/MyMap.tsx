@@ -30,11 +30,11 @@ function MyMap( props : MyMapProps ) {
   });
   
   return (
-    <ReactMapGL  // HIDE THE API KEY
+    <ReactMapGL  
       {...viewState}
       style={ { width: "100%", height: "100%" } }
       mapStyle={props.mapStyle}
-      mapboxAccessToken="pk.eyJ1IjoibXRyLXMiLCJhIjoiY2x2d3p1MmZ1MGR3ZDJxbzBlZmJxbmIxbiJ9.Sdk_8kjaGYVk9fQlrVdI3Q" 
+      mapboxAccessToken= "pk.eyJ1IjoibXRyLXMiLCJhIjoiY2x2d3p1MmZ1MGR3ZDJxbzBlZmJxbmIxbiJ9.Sdk_8kjaGYVk9fQlrVdI3Q" 
     >
       <Marker
         longitude = { props.longitude }
@@ -45,6 +45,5 @@ function MyMap( props : MyMapProps ) {
   );
 }
 
-// IFCE: longitude: -38.537350 & latitude: -3.745670,
 
 export default MyMap;

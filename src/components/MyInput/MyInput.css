@@ -32,6 +32,21 @@
     scale: 1.05;
 }
 
+.swal-modal {
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.swal-button {
+    background-color: #5261C4;
+}
+
+.swal-button:hover {
+    background-color: #4553ae;
+}
+
+
 @media (max-width: 1020px) {
     .Input-Component {
         width: 70vw;

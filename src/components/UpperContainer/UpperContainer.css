@@ -13,5 +13,5 @@
 
 .UpperContainer .Title {
     color: #fff;
-    font-size: clamp(1rem, 3vw, 2.5rem); ;
+    font-size: 2em;
 }
