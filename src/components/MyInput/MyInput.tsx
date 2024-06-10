@@ -20,7 +20,6 @@ function MyInput( props : MyInputProps ) {
         }
     }, [props.myInitialIp]);
 
-    //apiKey=at_OpXhqLDEetLKpdJTgaQapxkUROA3r&
     const fetchIpData = (inputRequest:string, e?:any) => {
         e && e.preventDefault();
             Axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=${ process.env.REACT_APP_IPIFY_KEY }&domain=${ inputRequest }&ipAddress=${ inputRequest }`)

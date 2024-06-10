@@ -45,5 +45,4 @@ function MyMap( props : MyMapProps ) {
   );
 }
 
-
 export default MyMap;
