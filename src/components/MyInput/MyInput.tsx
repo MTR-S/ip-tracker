@@ -22,7 +22,7 @@ function MyInput( props : MyInputProps ) {
 
     const fetchIpData = (inputRequest:string, e?:any) => {
         e && e.preventDefault();
-            Axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=${ process.env.REACT_APP_IPIFY_KEY }&domain=${ inputRequest }&ipAddress=${ inputRequest }`)
+            Axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=at_OpXhqLDEetLKpdJTgaQapxkUROA3r&domain=${ inputRequest }&ipAddress=${ inputRequest }`)
             .then((response) => {
                 props.setIpInfos({ 
                     ipAddress:response.data.ip, 
