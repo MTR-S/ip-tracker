@@ -31,5 +31,5 @@ If you put an Address that is invalid the application will send to you an alert:
 ![Ip Tracker alert](https://github.com/MTR-S/ip-tracker/assets/133928872/b5761bb0-3d40-43ce-b001-e406248d639f)
 
 # Contribution
-This project was inspired by the challenge proposal by proposal by the website [Ip Tracker Website](https://www.frontendmentor.io/home )
+This project was inspired by the challenge proposal by proposal by the website [Ip Tracker Website](https://www.frontendmentor.io/home ).
 Here the link to my project on Frontend Mentor: [Fronend Mentor Ip Tracker](https://www.frontendmentor.io/solutions/fetching-api-with-typescript-and-react-react-components-and-hooks-uegfpNAiY-)
