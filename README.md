@@ -33,3 +33,7 @@ If you put an Address that is invalid the application will send to you an alert:
 # Contribution
 This project was inspired by the challenge proposal by proposal by the website [Ip Tracker Website](https://www.frontendmentor.io/home ).
 Here the link to my project on Frontend Mentor: [Fronend Mentor Ip Tracker](https://www.frontendmentor.io/solutions/fetching-api-with-typescript-and-react-react-components-and-hooks-uegfpNAiY-)
+
+This project uses two apis: 
+1. ipify: To find the location info based on the IP or domain name -> [Link to the api](https://geo.ipify.org/).
+2. Mapbox: To display the map on the screen -> Link to the api: [Link to the api](https://www.mapbox.com/).
